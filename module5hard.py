@@ -59,7 +59,7 @@ class UrTube:
                 if movie in video.title:
                     for i in range(1, 11):
                         print(i, end=' ')
-                        time.sleep(0.1)  # TODO установить в конце 1 сек.
+                        time.sleep(1)
                     print('Конец видео')
         else:
             print('Войдите в аккаунт, чтобы смотреть видео')
